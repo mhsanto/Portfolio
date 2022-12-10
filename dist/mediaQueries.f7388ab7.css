@@ -1,0 +1,449 @@
+@media all and (max-width: 1200px) {
+  #project-1 {
+       display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  #smallSite {
+    width: clamp(270px, 207vw + 1rem, 420px);
+    object-fit: fill;
+    border: 1px solid #ae9687;
+  }
+  #full__view{
+    order: 2;
+  }
+  .projectDetails{
+    position: static;
+    order: 1;
+    padding-bottom: 7.5vw;
+    font-size: 2rem;
+    line-height: 1.1;
+  }
+  .projectDetails .sticky {
+    top: 0;
+    text-align: left;
+  }
+}
+@media all and (max-width: 1024px) {
+
+  .desktop {
+    width: 78%;
+  }
+  .mobile {
+    width: 29%;
+    bottom: -1rem;
+  }
+  .tablet {
+    width: 31%;
+    bottom: -55px;
+    right: -8px;
+  }
+
+  #projects .mockups .header-2 {
+    left: 21%;
+    top: 67%;
+  }
+}
+@media all and (max-width: 920px) {
+  #projects {
+    height: fit-content;
+    margin-bottom: 0;
+  }
+  #projects .mockups {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pc_mockup {
+    position: relative;
+  }
+  .pc_mockup {
+    left: 50%;
+    order: 3;
+    transform: translateX(-50%);
+  }
+  .desktop {
+    position: relative;
+    left: 12%;
+    top: -19rem;
+    transform: translateX(-50%);
+    width: 71%;
+    transform: rotate3d(1, 1, -1, 15deg) !important;
+  }
+  .sourcePc {
+    -webkit-transform: rotate3d(1, 1, -1, 15deg);
+    transform: rotate3d(1, 1, -1, 15deg) !important;
+  }
+  .tablet {
+    position: relative;
+    width: 40%;
+    bottom: 19rem;
+    left: 52%;
+    order: 2;
+    -webkit-transform: rotate3d(1, -1, 1, 32deg) !important;
+    transform: rotate3d(1, -1, 1, 32deg) !important;
+  }
+  .sourceTab {
+    -webkit-transform: rotate3d(1, -1, 1, 48deg) !important;
+    transform: rotate3d(1, -1, 1, 48deg) !important;
+  }
+
+  .mobile {
+    position: relative;
+    width: 43%;
+    -webkit-transform: rotate3d(2, 2, -1.5, 34deg);
+    transform: rotate3d(2, 2, -1.5, 34deg) !important
+    ;
+  }
+  .sourcemob {
+    -webkit-transform: rotate3d(2, 2, -1.5, 34deg) !important;
+    transform: rotate3d(2, 2, -1.5, 34deg) !important;
+  }
+}
+
+@media all and (max-width: 900px) {
+  #hero {
+    padding-bottom: 0;
+  }
+
+  #hero .header-2 {
+    margin-bottom: -0.6875rem;
+  }
+
+  #hero .header-3 {
+    margin-bottom: -2rem;
+  }
+  #hero .details .developer {
+    margin-left: clamp(11.5rem, 8vw + 1rem, 44rem);
+  }
+  #hero .gifs {
+    display: none;
+  }
+
+  .introduction p {
+    width: 43%;
+  }
+
+  #projects .header-2 {
+    margin-bottom: -6rem;
+  }
+  .flex-container {
+    grid-template-columns: auto auto;
+    display: grid;
+  }
+
+  .card:hover {
+    width: 400px;
+  }
+
+  .css-bootstrap {
+    flex-direction: column;
+  }
+
+  .product2 {
+    height: clamp(7.5rem, 11vw + 1rem, 8.125rem);
+    scale: 0.8;
+  }
+
+  .flex-container {
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+  }
+}
+@media (max-width: 780px) {
+  header .logo .T:before {
+    left: 67%;
+  }
+
+  .header-2 {
+    font-size: clamp(1.5rem, 6vw + 1rem, 5rem);
+  }
+  #hero .details .developer {
+    margin-left: clamp(9.5rem, 8vw + 1rem, 44rem);
+  }
+  #hero .details:not(.LeftRight) {
+    gap: 1.2rem;
+  }
+
+  #hero .header-3 {
+    margin-bottom: -2.2rem;
+  }
+
+  #hero .header-2 {
+    letter-spacing: 1px;
+    margin-bottom: -1.22rem;
+    font-size: clamp(2rem, 7.5vw + 0.5rem, 4rem);
+  }
+
+  #hero .header-3 {
+    letter-spacing: 2px;
+  }
+
+  #hero .header-4 {
+    letter-spacing: 0.5px;
+  }
+  .details .developer .gifs {
+    max-width: 150%;
+    padding: 0.5rem;
+  }
+
+  #skills .header-2 {
+    font-size: clamp(3.5rem, 6vw + 1rem, 5rem);
+    margin-bottom: -6.6875rem;
+  }
+
+  #projects .header-2 {
+    margin-bottom: -3rem;
+  }
+  .expandingCard .container {
+    width: 99%;
+  }
+}
+
+@media (max-width: 635px) {
+  #hero .details .developer {
+    margin-left: clamp(9rem, 8vw + 1rem, 44rem);
+  }
+  .flex-container {
+    grid-template-columns: auto;
+  }
+
+  #projects .header-2 {
+    margin-bottom: 0;
+  }
+  #projects .header-2 {
+    margin-bottom: -2rem;
+  }
+  #projects {
+    padding-top: 0;
+  }
+
+  .footerPart {
+    padding: 4rem 101px;
+  }
+}
+@media (max-width: 610px) {
+  .scrolldown {
+    left: 45%;
+    bottom: 0;
+  }
+  #hero {
+    padding-top: 1.1rem;
+    padding-bottom: 1rem;
+  }
+  #hero .details .developer {
+    margin-left: clamp(5.5rem, 8vw + 5rem, 44rem);
+  }
+  #hero .header-2 {
+    letter-spacing: 1px;
+    margin-bottom: -0.6rem;
+  }
+  #hero .header-3 {
+    margin: 0 182px 0 10px;
+    margin-bottom: -1.7rem;
+  }
+  #hero .header-4 {
+    margin: 10px 0 0 83px;
+  }
+
+  #hero .header-4,
+  #hero .header-3 {
+    font-size: clamp(20px, 5.5vw + 1rem, 80px);
+  }
+  .introduction {
+    margin: -1.7rem 0 0;
+    position: relative;
+    right: -48%;
+  }
+  .introduction p {
+    width: 49%;
+  }
+  #projects .header-2 {
+    margin-bottom: -2rem;
+  }
+  .mobile {
+    bottom: 1rem;
+  }
+  #projects .mockups .header-2 {
+    left: 17%;
+    top: 62%;
+  }
+}
+
+@media (max-width: 480px) {
+  header .hireme {
+    width: 99px;
+    height: 36px;
+    letter-spacing: 0;
+    font-size: 12px;
+  }
+
+  header .logo h2,
+  header .logo .S {
+    font-size: 1.5rem;
+  }
+
+  header .logo .T {
+    width: 67px;
+    height: 2.8px;
+    top: 27%;
+    left: 7.5%;
+  }
+
+  header .logo .T:before {
+    width: 3px;
+    height: 19.5px;
+    top: 90%;
+    left: 63%;
+  }
+  #hero .Hi {
+    width: 70px;
+    height: 40px;
+    border-radius: 8px;
+  }
+  .introduction {
+    margin: -1.5rem 0 0;
+    right: -41%;
+  }
+
+  .introduction p {
+    width: 53%;
+  }
+
+  #hero .details .developer {
+    margin-left: 5rem;
+  }
+  #hero .header-1 {
+    font-size: clamp(14px, 1vw + 2rem, 4.2rem);
+    margin-bottom: -4.62rem;
+  }
+  #hero .header-2 {
+    letter-spacing: 1px;
+    margin-bottom: -0.19rem;
+  }
+  #hero .header-3 {
+    margin-bottom: -1.2rem;
+  }
+
+  #hero .header-4 {
+    margin: 3px 0 0 83px;
+  }
+
+  .chevrons {
+    display: none;
+  }
+
+  .details .developer .gifs {
+    display: none;
+  }
+  #projects .mockups .header-2 {
+    left: 17%;
+    top: 34%;
+  }
+  .mobile {
+    bottom: 4rem;
+  }
+
+  #skills .header-2 {
+    padding-bottom: 0;
+  }
+  .card:hover {
+    width: 97vw;
+  }
+  .product {
+    height: 140px;
+  }
+
+  #hire-me {
+    min-height: 70vh;
+    padding: 2rem 0;
+  }
+
+  #hire-me .flex-container {
+    justify-content: center;
+  }
+
+  .footerPart {
+    margin-left: 1rem;
+    padding: 0 0 26px;
+  }
+}
+
+@media (max-width: 420px) {
+  .introduction {
+    margin: -1.5rem 0 0;
+    right: -33%;
+  }
+  .introduction p {
+    width: 62%;
+  }
+  #projects .header-2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .desktop {
+    top: -17rem;
+  }
+  .tablet {
+    width: 40%;
+    bottom: 17rem;
+    -webkit-transform: rotate3d(1, -1, 1, 48deg) !important;
+    transform: rotate3d(0, -1, 1, 24deg) !important;
+  }
+  #hero .details .developer {
+    margin-left: 7rem;
+  }
+  #hire-me .flex-container {
+    padding-bottom: 0;
+    gap: 0.5rem;
+    padding-top: 7px;
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 380px) {
+  header .logo .T:before {
+    left: 67%;
+  }
+  #hero .header-2 {
+    text-align: start;
+    font-size: clamp(1.2rem, 5.5vw + 0.8rem, 3rem);
+  }
+  #hero .details .developer {
+    margin-left: 11rem;
+  }
+  #hero .header-4 {
+    margin: 3px 0 0 10px;
+  }
+  .introduction {
+    right: -25%;
+  }
+
+  .introduction p {
+    width: 70%;
+    font-size: clamp(0.7rem, 2vw, 1.2rem);
+  }
+  #projects .header-2 {
+    margin-bottom: 47px;
+  }
+  .mobile {
+    bottom: 6rem;
+  }
+  .tablet {
+    bottom: 12rem;
+  }
+  .desktop {
+    top: -12rem;
+  }
+  #projects .mockups .header-2 {
+    left: 4%;
+  }
+  .footerPart {
+    padding: 0 0 35px;
+  }
+}
+
+
+/*# sourceMappingURL=/mediaQueries.f7388ab7.css.map */
