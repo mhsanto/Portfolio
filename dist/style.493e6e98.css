@@ -437,6 +437,7 @@ header .hireme:hover {
   width: clamp(270px, 27vw + 1rem, 280px);
   object-fit: fill;
   border: 1px solid #ae9687;
+  margin-right: 5rem;
 }
 #soBig {
  width: 94%;
@@ -455,7 +456,7 @@ header .hireme:hover {
   position: relative;
   top: 5rem;
   text-align: left;
-  margin-left: clamp(.5rem , 8vw , 19rem);
+  margin-left: clamp(2rem , 4rem , 5rem);
 
 }
 .projectDetails .sticky > * {
